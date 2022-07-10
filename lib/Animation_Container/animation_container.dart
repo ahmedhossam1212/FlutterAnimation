@@ -10,8 +10,7 @@ class AnimationContainer extends StatefulWidget {
 class _AnimationContainerState extends State<AnimationContainer> {
   double myhight = 100.0;
    double mywidth = 100.0;
-   double newhight=300.0;
-   double newwidth=300.0;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +18,7 @@ class _AnimationContainerState extends State<AnimationContainer> {
         children: [
           Center(
             child: AnimatedContainer(
-              duration: Duration(seconds:1 ),
+              duration: const Duration(seconds:1 ),
               color: Colors.blue,
               curve:Curves.linear,
               height: myhight,
@@ -29,9 +28,10 @@ class _AnimationContainerState extends State<AnimationContainer> {
             
           ),
           TextButton(onPressed: (){
-            setState(() {
-              myhight=newhight;
-              mywidth=newwidth;
+            setState(() { 
+
+            myhight=300.0;
+            mywidth=300.0;
              
          
               
