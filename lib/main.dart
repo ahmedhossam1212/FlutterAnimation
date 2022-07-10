@@ -1,3 +1,4 @@
+import 'package:animation/Animated_Text/animated_text.dart';
 import 'package:animation/Animated_cross_Fade/animated_cross_fade.dart';
 import 'package:animation/Transform/tarnsform_one.dart';
 import 'package:animation/Transition/page1.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-     home: AnimatedFade(),
+     home: AnimatedText(),
     );
   }
 }
