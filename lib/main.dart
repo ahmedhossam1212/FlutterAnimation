@@ -1,3 +1,4 @@
+import 'package:animation/Animated_PaddingandOpacity/animadtedpaddingandopacity.dart';
 import 'package:animation/Animated_Text/animated_text.dart';
 import 'package:animation/Animated_cross_Fade/animated_cross_fade.dart';
 import 'package:animation/Transform/tarnsform_one.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-     home: AnimatedText(),
+     home: AnimatedPaddingandOPacity(),
     );
   }
 }
